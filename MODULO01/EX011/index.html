@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Outras midias</h1>
+    <h2>Imagens dinâmicas</h2>
+    <p>Utilizando a tag <strong>&ltpicture&gt</strong> juntamento da tag <strong>&ltsource&gt</strong> podemos estabeler
+        condições para mudança de certas propriedades
+        nas imagens</p>
+    <em>
+        <p>Altere o tamanha da tela para ver a mudança</p>
+    </em>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="images/small-pic.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="images/medium-pic.png" type="image/png">
+        <img src="images/big-pic.png" alt="Foto Grande">
+    </picture>
+    <h2>Reproduzindo audio</h2>
+
+    <p>Vamos aprender a utilizar audios no HTML utilizando a tag <strong>&ltaudio&gt</strong></p>
+    <audio src="midia/fuzz-buzz.mp3" controls autoplay></audio>
+    <p>Outra forma de colocar audios, utilizando a tag <strong>&ltaudio&gt</strong> junto ao
+        <strong>&ltsource&gt</strong></p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/fuzz-buzz.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não suporta executar o audio. <a href="midia/fuzz-buzz.mp3"
+                download="fuzz-buzz.mp3">Baixe Aqui</a></p>
+    </audio>
+</body>
+
+</html>

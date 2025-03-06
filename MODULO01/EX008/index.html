@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Outras formatações</title>
+</head>
+<body style="font-family: sans-serif; padding: 10px;">
+    <h1>Outras Formatações</h1>
+    <h2>Codigo-fonte / Pré-formatação</h2>
+    <p>Para códigos utilizados a tag <strong>&ltcode&gt</strong>, utilizado para aplicar e dar significado de formatação de códigos. <br>Segue exemplo: </p>
+
+    <code>
+        if num % 2 == 0:
+            print(f"O numero {num} é par")
+        else:
+            print(f"O numero {num} é impar")
+    </code>
+    <p>
+        Porém podemos perceber que o código não ficou formado corretamente, para isso é necessário utilizar a tag <strong>&ltpre&gt</strong>
+    </p>
+
+    <p>Segue agora o código formato corretamente:</p>
+    <pre>
+        <code>
+    if num % 2 == 0:
+        print(f"O numero {num} é par")
+    else:
+        print(f"O numero {num} é impar")
+        </code>
+    </pre>
+    <h2>Citações Simples</h2>
+    <p>Para Citações simples com o uso de aspas utilizamos a tag <strong>&lt q &gt</strong></p>
+
+    <q>
+        <p>Bololo hahaha <br> - Gordão da XJ</p>
+    </q>
+
+    <h2>Citações Completas</h2>
+    <p>Para Citações completas ou com deslocamento utilizamos a tag <strong>&lt blockquote &gt</strong></p>
+
+    <blockquote>
+        <p>Bololo hahaha <br> - Gordão da XJ</p>
+    </blockquote>
+
+    <h2>Abreviações</h2>
+    <p>Para dar sentido as abreviações utilizamos a tag <strong>&ltabbr&gt</strong></p>
+    <p>
+        Estou utilizando o <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets ">CSS</abbr>
+    </p>
+    <h2>Texto invertido</h2>
+    <p>Para alterar a orientação do texto utilizamos a tag <strong>&ltbdo&gt</strong></p>
+
+    <p>Segue exemplo: <br>Ola mundo</p>
+    <p><bdo dir="rtl">Ola mundo</bdo></p>
+</body>
+</html>

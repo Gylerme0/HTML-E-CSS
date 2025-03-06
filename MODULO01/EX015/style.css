@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+h2 {
+    color: red;
+}
+
+p {
+    color: bisque;
+    background-color: gray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: justify;
+}

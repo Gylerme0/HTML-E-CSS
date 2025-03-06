@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Reproduzindo videos</h1>
+    <h2>Videos Locais</h2>
+    <p>Para reproduzir videos locais, utilizamos a tag <strong>&ltvideo&gt</strong></p>
+
+    <video preload="metadata" poster="midia/thumb.jpg" height="320" width="640" controls>
+        <source src="midia/Video.webm" type="video/webm">
+        <source src="midia/video.mp4" type="video/mp4">
+
+        <p>Infelizmente seu navegador não suporta o video</p>
+    </video>
+
+    <h2>Videos Externos</h2>
+    <p>É possível mostrar videos no seu site hospedado em outros sites, como o Youtube e vimeo</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qlYwfh3xlXE?si=Hdks3Ekkv8mQUP77"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+
+</html>
